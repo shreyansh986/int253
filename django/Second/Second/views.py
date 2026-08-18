@@ -1,0 +1,11 @@
+#from django.shortcuts import render
+#from django.http import HttpResponse
+
+#def home(request):
+#   return HttpResponse("Hello");
+
+from django.shortcuts import render
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse('<h2>Hello</h2>');
